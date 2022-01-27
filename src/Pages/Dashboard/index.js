@@ -47,7 +47,7 @@ function Dashboard(props) {
                                         <div>
                                             <p> {item.description} </p>
                                             <p> {item.price} </p>
-                                            <p> Created by Mashwani React Js expert </p>
+                                            <p> Created by Mashwani </p>
                                         </div>
                                     ]} />
                                 </Card>
