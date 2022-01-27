@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import 'antd/dist/antd.min.css'
+import RoutesComponent from './Routes';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <RoutesComponent />
+      
+    </>
+    
+
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Login />} />
+    //     <Route path="/dashboard" element={<Dashboard />} />
+    //     <Route path="/list" element={<List />} />
+    //     <Route path="/form" element={<Form />} />
+    //   </Routes>
+    // </BrowserRouter>
+
+  //   <Router>
+  //   {/* <div>
+  //     <nav>
+  //       <ul>
+  //         <li>
+  //           <Link to="/index">index</Link>
+  //         </li>
+  //         <li>
+  //           <Link to="/login">Login</Link>
+  //         </li>
+  //         <li>
+  //           <Link to="/list">List</Link>
+  //         </li>
+  //         <li>
+  //           <Link to="/form">Form</Link>
+  //         </li>
+  //       </ul>
+  //     </nav>
+  //   </div> */}
+  // </Router>
+);
 }
+
+
+
+
 
 export default App;
